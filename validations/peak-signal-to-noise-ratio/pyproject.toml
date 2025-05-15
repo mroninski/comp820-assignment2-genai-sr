@@ -1,0 +1,19 @@
+[project]
+name = "peak-signal-to-noise-ratio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click==8.1.7",
+    "imagehash>=4.3.2",
+    "numpy>=2.2.5",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.2.1",
+    "pydantic>=2.11.4",
+    "scikit-image>=0.25.2",
+    "typer>=0.15.3",
+]
+
+[project.scripts]
+psnr = "main:main"

@@ -1,0 +1,14 @@
+[project]
+name = "structural-similarity-index-measure"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click==8.1.7",
+    "imagehash>=4.3.2",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.2.1",
+    "scikit-image>=0.25.2",
+    "typer>=0.15.3",
+]

@@ -1,0 +1,13 @@
+[project]
+name = "scale-invariant-feature-transform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click==8.1.7",
+    "matplotlib>=3.10.3",
+    "opencv-contrib-python>=4.11.0.86",
+    "opencv-python>=4.11.0.86",
+    "typer>=0.15.3",
+]

@@ -1,0 +1,13 @@
+[project]
+name = "learned-perceptual-image-patch-similarity"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click==8.1.7",
+    "imagehash>=4.3.2",
+    "lpips>=0.1.4",
+    "opencv-python>=4.11.0.86",
+    "typer>=0.15.3",
+]
